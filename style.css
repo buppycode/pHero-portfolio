@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .dev-color {
   color: orange;
 }
@@ -47,4 +50,27 @@ h1 {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+  padding-left: 3%;
+  border-radius: 15px;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack-dev {
+  border-left: 7px solid tomato;
+}
+#baby-web-dev {
+  border-left: 7px solid blue;
+}
+footer p {
+  text-align: center;
+  background-color: cadetblue;
 }
